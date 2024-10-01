@@ -6,7 +6,8 @@ categories: vietnam travel international
 background: '/img/international-diaries/vietnam/banner.jpg'
 ---
 
-Hey everyone! I want to take you back to an unforgettable adventure we had in August 2019 when I travelled to Vietnam with three of my office buddies. Picture this: vibrant streets, mouth-watering food, and countless laughs! Here’s a look at our whirlwind itinerary packed with adventure, laughter, and delicious food.
+{: style="text-align: justify; font-size:25px"}
+> I can hardly believe it's been a while since my incredible trip to Vietnam with three of my office buddies back in August 2019. The memories are still so vivid! We had the time of our lives exploring this beautiful country, filled with laughter, excitement, and, of course, mouth-watering food. Join me as I take you through our whirlwind adventure packed with unforgettable experiences!
 
 ### Day 0: Journey to Ho Chi Minh City
 
