@@ -3,12 +3,10 @@ layout: post
 title:  "Planning an International Trip? Don’t Miss These Essential To-Dos"
 date:   2024-10-05 00:00:00 +0530
 categories: india travel international
-background: '/img/indian-diaries/udaipur/banner.jpg'
+background: '/img/international-diaries/travel-checklist/banner.jpg'
 ---
 
-**Important To-Dos for an International Trip: A Complete Checklist**
-
-Planning an international trip can be an exciting yet overwhelming experience. Whether you’re a seasoned traveller or taking your first big adventure abroad, it’s essential to cover all your bases before boarding that flight. To help you avoid any last-minute surprises, I’ve put together a detailed checklist of must-dos to ensure a smooth, worry-free trip.
+> Planning an international trip can be an exciting yet overwhelming experience. Whether you’re a seasoned traveller or taking your first big adventure abroad, it’s essential to cover all your bases before boarding that flight. To help you avoid any last-minute surprises, I’ve put together a detailed checklist of must-dos to ensure a smooth, worry-free trip.
 
 1. **Book Your Return Flight Tickets Early**  
    This is the first and foremost thing to handle. Lock in your return flight tickets well in advance to avoid price hikes or sold-out flights. Having your return sorted not only gives you peace of mind but also helps with visa applications and overall travel planning.
