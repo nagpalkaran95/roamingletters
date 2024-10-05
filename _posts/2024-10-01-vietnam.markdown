@@ -6,7 +6,6 @@ categories: vietnam travel international
 background: '/img/international-diaries/vietnam/banner.jpg'
 ---
 
-{: style="text-align: justify; font-size:25px"}
 > I can hardly believe it's been a while since my incredible trip to Vietnam with three of my office buddies back in August 2019. The memories are still so vivid! We had the time of our lives exploring this beautiful country, filled with laughter, excitement, and, of course, mouth-watering food. Join me as I take you through our whirlwind adventure packed with unforgettable experiences!
 
 ### Day 0: Journey to Ho Chi Minh City
