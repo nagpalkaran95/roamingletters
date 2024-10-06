@@ -51,6 +51,7 @@ plugins:
 algolia:
   application_id: 'P6LVOVM3QD'
   index_name: site-search
+  public_key: 9150da97e970680a466a17bcb31ae704
 
 # Exclude from processing.
 # The following items will not be processed, by default.
