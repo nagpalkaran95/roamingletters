@@ -1,6 +1,14 @@
-{% capture srcset %}
+<!-- {% capture srcset %}
     {% for i in resized %}
         /{{ i.path }} {{ i.width }}w,
     {% endfor %}
 {% endcapture %}
-<img src="/{{ path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}">
+<img src="/{{ path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}"> -->
+
+
+<picture>
+  {% for i in resized %}
+      <source media="(min-width: {{ i.width }}px)" srcset="{{site.baseurl}}/{{ i.path }}">
+  {% endfor %}
+  <img src="{{site.baseurl}}/{{ path }}" class="center">
+</picture>
