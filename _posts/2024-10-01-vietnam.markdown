@@ -22,7 +22,12 @@ First up was a local market, and wow—what a sensory overload! The colours, the
 
 Next, we made our way to the stunning Opera House. It was the perfect backdrop for some fun photos! Then it was off to Backpackers Street for dinner, where we indulged in some mouth-watering street food. Seriously, I could eat banh mi every day!
 
-![Pho](img/international-diaries/vietnam/pho.jpg)
+<picture>
+      <source media="(min-width: 480px)" srcset="{{ site.baseurl }}/assets/resized/480/pho.jpg" />
+      <source media="(min-width: 800px)" srcset="{{ site.baseurl }}/assets/resized/800/pho.jpg" />
+      <source media="(min-width: 1400px)" srcset="{{ site.baseurl }}/assets/resized/1400/pho.jpg" />
+  <img src="{{ site.baseurl }}/img/international-diaries/vietnam/pho.jpg" alt="Pho" class="center" />
+</picture>
 
 {:.image-caption}
 *Pho - yummy dish*
@@ -79,7 +84,12 @@ Once we arrived, our first stop was the famed Golden Bridge. This stunning struc
 
 After enjoying the views at the Golden Bridge, we made our way to Sun World Amusement Park, nestled in the mountains. It was a wonderland of attractions! We took our time wandering through the beautifully themed areas, riding thrilling roller coasters, and enjoying various fun rides. The laughter and excitement were contagious, and we felt like kids again!
 
-![Sun World](/img/international-diaries/vietnam/bana-hills-sunworld.jpg)
+<picture>
+      <source media="(min-width: 480px)" srcset="{{ site.baseurl }}/assets/resized/480/bana-hills-sunworld.jpg" />
+      <source media="(min-width: 800px)" srcset="{{ site.baseurl }}/assets/resized/800/bana-hills-sunworld.jpg" />
+      <source media="(min-width: 1400px)" srcset="{{ site.baseurl }}/assets/resized/1400/bana-hills-sunworld.jpg" />
+  <img src="{{ site.baseurl }}/img/international-diaries/vietnam/bana-hills-sunworld.jpg" alt="Sun World Amusement Park" class="center" />
+</picture>
 
 {:.image-caption}
 *Sun World Amusement Park*
@@ -90,7 +100,12 @@ Later in the afternoon, we spent some time exploring the whimsical French villag
 
 On our final day in Da Nang, we started the afternoon by visiting the incredible Marble Mountains. We hiked up to admire the breathtaking views, explored the intricate caves and temples, and soaked in the serene atmosphere.
 
-![View from Marble Mountain](img/international-diaries/vietnam/marble-mountain-view.jpg)
+<picture>
+      <source media="(min-width: 480px)" srcset="{{ site.baseurl }}/assets/resized/480/marble-mountain-view.jpg" />
+      <source media="(min-width: 800px)" srcset="{{ site.baseurl }}/assets/resized/800/marble-mountain-view.jpg" />
+      <source media="(min-width: 1400px)" srcset="{{ site.baseurl }}/assets/resized/1400/marble-mountain-view.jpg" />
+  <img src="{{ site.baseurl }}/img/international-diaries/vietnam/marble-mountain-view.jpg" alt="View from Marble Mountain" class="center" />
+</picture>
 
 {:.image-caption}
 *View from Marble Mountain*
@@ -119,7 +134,12 @@ Bright and early, we set off for an unforgettable boat party from Hanoi to Ha Lo
 
 Once we anchored, we had the chance to swim in the ocean. Even though none of us could swim, we still had a blast splashing around in the shallow waters and enjoying the breathtaking views. It was a memorable experience, with laughter echoing all around!
 
-![Ha Long Bay](img/international-diaries/vietnam/halong-bay.jpg)
+<picture>
+      <source media="(min-width: 480px)" srcset="{{ site.baseurl }}/assets/resized/480/halong-bay.jpg" />
+      <source media="(min-width: 800px)" srcset="{{ site.baseurl }}/assets/resized/800/halong-bay.jpg" />
+      <source media="(min-width: 1400px)" srcset="{{ site.baseurl }}/assets/resized/1400/halong-bay.jpg" />
+  <img src="{{ site.baseurl }}/img/international-diaries/vietnam/halong-bay.jpg" alt="Ha Long Bay" class="center" />
+</picture>
 
 {:.image-caption}
 *Ha Long Bay*
