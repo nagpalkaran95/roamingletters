@@ -8,7 +8,7 @@
 
 <picture>
   {% for i in resized %}
-      <source media="(min-width: {{ i.width }}px)" srcset="{{site.baseurl}}/{{ i.path }}">
+      <source media="(min-width: {{ i.width }}px)" srcset="{{ i.path }}">
   {% endfor %}
-  <img src="{{site.baseurl}}/{{ path }}" class="center">
+  <img src="{{ path }}" class="center">
 </picture>
