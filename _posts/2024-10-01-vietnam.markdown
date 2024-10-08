@@ -64,6 +64,8 @@ Once we arrived, our first stop was the famed Golden Bridge. This stunning struc
 
 ![Golden Bridge](img/international-diaries/vietnam/bana-hills-bridge.jpg)
 
+{% responsive_image path: "img/international-diaries/vietnam/bana-hills-bridge.jpg" %}
+
 {:.image-caption}
 *Golden Bridge*
 
