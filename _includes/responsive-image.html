@@ -8,8 +8,8 @@
 
 <picture>
   {% for i in resized %}
-      <source media="(min-width: {{ i.width }}px)" srcset=url('{{ i.path | prepend: site.baseurl | replace: '//', '/' }}')>
+      <source media="(min-width: {{ i.width }}px)" srcset="{{ site.baseurl }}/{{ i.path }}">
   {% endfor %}
 
-  <img src=url('{{ path | prepend: site.baseurl | replace: '//', '/' }}') class="center">
+  <img src="{{ site.baseurl }}/{{ path }}" class="center">
 </picture>
