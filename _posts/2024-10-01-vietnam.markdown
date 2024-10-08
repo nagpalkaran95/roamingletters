@@ -69,7 +69,7 @@ Once we arrived, our first stop was the famed Golden Bridge. This stunning struc
 
 After enjoying the views at the Golden Bridge, we made our way to Sun World Amusement Park, nestled in the mountains. It was a wonderland of attractions! We took our time wandering through the beautifully themed areas, riding thrilling roller coasters, and enjoying various fun rides. The laughter and excitement were contagious, and we felt like kids again!
 
-![Sun World](img/international-diaries/vietnam/bana-hills-sunworld.jpg)
+![Sun World](/img/international-diaries/vietnam/bana-hills-sunworld.jpg)
 
 {:.image-caption}
 *Sun World Amusement Park*
