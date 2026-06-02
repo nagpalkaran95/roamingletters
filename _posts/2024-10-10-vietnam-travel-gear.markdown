@@ -1,17 +1,17 @@
 ---
 layout: post
 title: "10 Must-Have Travel Gear Items for Southeast Asia"
-subtitle: "Everything I packed for Vietnam — and what I wish I'd packed sooner"
+subtitle: "Everything I packed for Vietnam - and what I wish I'd packed sooner"
 date: 2024-10-10 00:00:00 +0530
 categories: gear travel
 background: '/img/international-diaries/vietnam/banner.jpg'
 ---
 
-After spending 9 days across Ho Chi Minh City, Da Nang, and Hanoi, I learned quickly what gear earns its place in your bag — and what doesn't. This is my definitive list of travel essentials for any Southeast Asia trip, honed through real experience.
+After spending 9 days across Ho Chi Minh City, Da Nang, and Hanoi, I learned quickly what gear earns its place in your bag - and what doesn't. This is my definitive list of travel essentials for any Southeast Asia trip, honed through real experience.
 
 ### 1. Lightweight Backpack (40L)
 
-The single most important decision you'll make. Southeast Asia means humid weather, narrow streets, and moving between cities constantly. A carry-on-friendly 40L pack keeps you nimble — no checked baggage queues, no lost luggage risk.
+The single most important decision you'll make. Southeast Asia means humid weather, narrow streets, and moving between cities constantly. A carry-on-friendly 40L pack keeps you nimble - no checked baggage queues, no lost luggage risk.
 
 <div class="amazon-product">
   <span class="product-icon">🎒</span>
@@ -26,7 +26,7 @@ The single most important decision you'll make. Southeast Asia means humid weath
 
 ### 2. Compact Action Camera
 
-You'll be on boats, in caves, at waterfalls. Your phone won't survive all of that. I shot the Golden Bridge at Ba Na Hills, kayaking in Ha Long Bay, and parasailing in Da Nang — all with an action camera.
+You'll be on boats, in caves, at waterfalls. Your phone won't survive all of that. I shot the Golden Bridge at Ba Na Hills, kayaking in Ha Long Bay, and parasailing in Da Nang - all with an action camera.
 
 <div class="amazon-product">
   <span class="product-icon">📷</span>
@@ -41,7 +41,7 @@ You'll be on boats, in caves, at waterfalls. Your phone won't survive all of tha
 
 ### 3. High-Capacity Power Bank (20,000 mAh)
 
-Long train rides, overnight buses, all-day tourist spots — you will drain your phone. A 20,000 mAh bank charges my phone 4-5 times and also powers my camera.
+Long train rides, overnight buses, all-day tourist spots - you will drain your phone. A 20,000 mAh bank charges my phone 4-5 times and also powers my camera.
 
 <div class="amazon-product">
   <span class="product-icon">🔋</span>
@@ -161,6 +161,6 @@ Whether you're solo or in a group, a small tripod gets you better shots than any
 
 ---
 
-That's the complete list. Every single item on this list earned its place through actual use — nothing here is hypothetical. If you're heading to Southeast Asia, start with the backpack and the power bank — everything else is secondary.
+That's the complete list. Every single item on this list earned its place through actual use - nothing here is hypothetical. If you're heading to Southeast Asia, start with the backpack and the power bank - everything else is secondary.
 
 Happy travels! 🌏

@@ -26,11 +26,11 @@ background: '/img/international-diaries/travel-checklist/banner.jpg'
 6. **Get Good Travel Insurance**  
    Travel insurance is non-negotiable! Check out platforms like Policybazaar for options and choose a policy that covers medical emergencies, cancellations, and any other travel hiccups. It’s better to be safe than sorry, especially when you’re far from home.
 
-7. **Forex Exchange – Carry Enough Currency**  
-   Exchange enough local currency before you fly out. It’s always a good idea to carry a little more than you think you’ll need—unexpected expenses can crop up, and having cash on hand saves the trouble of hunting for forex exchange counters or ATMs abroad.
+7. **Forex Exchange - Carry Enough Currency**  
+   Exchange enough local currency before you fly out. It’s always a good idea to carry a little more than you think you’ll need - unexpected expenses can crop up, and having cash on hand saves the trouble of hunting for forex exchange counters or ATMs abroad.
 
 8. **Check the Weather and Pack Accordingly**  
-   Weather can make or break your trip, so make sure to check the forecast before you pack. Don’t forget to prepare for sudden weather changes too—extra layers, rain gear, or sun protection might come in handy depending on your destination.
+   Weather can make or break your trip, so make sure to check the forecast before you pack. Don’t forget to prepare for sudden weather changes too - extra layers, rain gear, or sun protection might come in handy depending on your destination.
 
 9. **Research Local Transport**  
    Understand how to get around in your destination city. Is public transport more cost-effective, or should you rely on taxis or ride-sharing services? Researching this in advance will help you navigate the city with ease and within budget.

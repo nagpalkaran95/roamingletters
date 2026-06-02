@@ -1,0 +1,18 @@
+current directory: /Users/karannagpal/Desktop/the_unknown_explorer/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+/usr/local/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/karannagpal/Desktop/the_unknown_explorer/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make -j9 DESTDIR\= sitearchdir\=./.gem.20260602-13667-uht9gq sitelibdir\=./.gem.20260602-13667-uht9gq clean
+
+current directory: /Users/karannagpal/Desktop/the_unknown_explorer/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make -j9 DESTDIR\= sitearchdir\=./.gem.20260602-13667-uht9gq sitelibdir\=./.gem.20260602-13667-uht9gq
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/karannagpal/Desktop/the_unknown_explorer/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make -j9 DESTDIR\= sitearchdir\=./.gem.20260602-13667-uht9gq sitelibdir\=./.gem.20260602-13667-uht9gq install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20260602-13667-uht9gq/racc
+
+current directory: /Users/karannagpal/Desktop/the_unknown_explorer/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260602-13667-uht9gq sitelibdir\=./.gem.20260602-13667-uht9gq clean

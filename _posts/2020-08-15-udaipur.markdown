@@ -43,7 +43,7 @@ Upon reaching Udaipur, I took an auto-rickshaw a.k.a. tuk-tuk, to reach the city
 
 ### Home for next five days
 
-Zostel – Udaipur is a charming little place. The place has a very warm and inviting vibe. It had a common playing room in the basement with a casual and cute setting: wall hangings and paintings, different types of pillows, seating space on the floor with a mattress, a small coffee table in the middle and loads of board games and card games to keep the guests occupied. And as if to add to the touch, a pool table at the side. Other than this there was also a cafe on the terrace to accommodate roughly 30 people. Attached to the cafe was another small entertainment room, it housed a couple of couches, some bean bags, a television, games like carom and to bring out the hidden artist in you, an acoustic guitar kept on one side of the room.
+Zostel - Udaipur is a charming little place. The place has a very warm and inviting vibe. It had a common playing room in the basement with a casual and cute setting: wall hangings and paintings, different types of pillows, seating space on the floor with a mattress, a small coffee table in the middle and loads of board games and card games to keep the guests occupied. And as if to add to the touch, a pool table at the side. Other than this there was also a cafe on the terrace to accommodate roughly 30 people. Attached to the cafe was another small entertainment room, it housed a couple of couches, some bean bags, a television, games like carom and to bring out the hidden artist in you, an acoustic guitar kept on one side of the room.
 
 <picture>
       <source media="(min-width: 480px)" srcset="{{ site.baseurl }}/assets/resized/480/dolls.jpg" />
