@@ -25,40 +25,100 @@ layout: default
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="col-lg-10 col-md-12 mx-auto">
 
-        {{ content }}
+        <!-- Start Here Banner (for first-time visitors) -->
+        {% assign featured_post = site.posts | where_exp: "p", "p.title contains 'Vietnam'" | first %}
+        {% unless featured_post %}{% assign featured_post = site.posts | first %}{% endunless %}
+        <div class="start-here-banner">
+          <span class="start-icon">✈️</span>
+          <div class="start-text">
+            <h4>New here? Welcome to The Unknown Explorer!</h4>
+            <p>Start with my Vietnam trip diary — 9 days, 3 cities, one unforgettable adventure.</p>
+          </div>
+          <a class="btn-start" href="{{ featured_post.url | prepend: site.baseurl | replace: '//', '/' }}">Read Vietnam Diary →</a>
+        </div>
 
-        <!-- Home Post List -->
-        {% for post in site.posts limit : 5 %}
+        <!-- Travel Diaries Section -->
+        <div class="section-header" style="margin-top:2.5rem;">
+          <h2>Latest Travel Diaries</h2>
+          <a class="view-all" href="{{ "/posts" | relative_url }}">View all posts →</a>
+        </div>
 
-        <article class="post-preview">
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-            <h2 class="post-title">{{ post.title }}</h2>
-            {% if post.subtitle %}
-            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-            {% else %}
-            <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+        <!-- Post Card Grid -->
+        <div class="posts-grid">
+          {% assign travel_posts = site.posts | where_exp: "post", "post.categories contains 'travel' or post.categories contains 'vietnam' or post.categories contains 'india' or post.categories contains 'international'" %}
+          {% for post in travel_posts limit: 4 %}
+          <article class="post-card">
+            {% if post.background %}
+            <div class="card-img">
+              <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" alt="{{ post.title | escape }}" loading="lazy">
+              </a>
+              <span class="card-category">
+                {% if post.categories.first %}{{ post.categories.first | upcase }}{% else %}TRAVEL{% endif %}
+              </span>
+            </div>
             {% endif %}
+            <div class="card-body">
+              <div class="card-title">
+                <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a>
+              </div>
+              <p class="card-excerpt">{{ post.excerpt | strip_html | truncatewords: 22 }}</p>
+              <div class="card-meta">
+                <i class="far fa-calendar-alt"></i>
+                {{ post.date | date: '%b %d, %Y' }}
+                &nbsp;&middot;&nbsp;
+                <i class="far fa-clock"></i>
+                {% include read_time.html content=post.content %}
+              </div>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+
+        <!-- Featured Gear Strip -->
+        <div class="featured-gear-strip">
+          <div class="strip-header">
+            <div>
+              <h3>🎒 Gear I Actually Use</h3>
+              <p class="strip-subtitle">Tried, tested &amp; recommended — with Amazon links</p>
+            </div>
+            <a class="btn-see-all" href="{{ "/gear" | relative_url }}">See All Picks →</a>
+          </div>
+          <div class="gear-items">
+            <div class="gear-item">
+              <span class="gear-emoji">🎒</span>
+              <div class="gear-name">Travel Backpack</div>
+              <div class="gear-desc">My go-to 40L carry-on for Southeast Asia trips</div>
+            </div>
+            <div class="gear-item">
+              <span class="gear-emoji">📷</span>
+              <div class="gear-name">Action Camera</div>
+              <div class="gear-desc">Waterproof, lightweight — perfect for adventures</div>
+            </div>
+            <div class="gear-item">
+              <span class="gear-emoji">🔋</span>
+              <div class="gear-name">Power Bank</div>
+              <div class="gear-desc">20,000 mAh — never run out of charge abroad</div>
+            </div>
+            <div class="gear-item">
+              <span class="gear-emoji">🌐</span>
+              <div class="gear-name">Travel Router</div>
+              <div class="gear-desc">Secure WiFi in hotels and hostels worldwide</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instagram CTA -->
+        <div class="instagram-cta">
+          <span class="ig-icon"><i class="fab fa-instagram"></i></span>
+          <h3>Follow @RoamingLetters</h3>
+          <p>Daily travel shots, gear reviews &amp; stories from the road — join 
+            {% if site.instagram_username %}the community{% endif %}!</p>
+          <a class="btn-instagram" href="https://instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener">
+            <i class="fab fa-instagram"></i> Follow on Instagram
           </a>
-          <p class="post-meta">Posted by
-            {% if post.author %}
-            {{ post.author }}
-            {% else %}
-            {{ site.author }}
-            {% endif %}
-            on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            
-          </p>
-        </article>
-
-        <hr>
-
-        {% endfor %}
-
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
         </div>
 
       </div>

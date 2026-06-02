@@ -21,18 +21,25 @@
 title: The Unknown Explorer
 email: nagpalkaran95@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Reporting from our big blue planet
+  Travel stories, gear picks & honest recommendations — by Karan @ RoamingLetters
 baseurl: "/the_unknown_explorer" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author: Karan Nagpal
 
+# Brand
+brand: RoamingLetters
+
+# Amazon Associates
+amazon_affiliate_tag: roamingletters-21
+amazon_base_url: "https://www.amazon.in"
+
 # Social Profiles
 facebook_username: null
-linkedin_username: nagpalkaran95
+linkedin_username: null
 twitter_username: null
-github_username:  nagpalkaran95
-instagram_username: nagpalkaran95
-youtube_username: "channel/UCKjXf4Yv_g1opdbMdGdgxEg"
+github_username: null
+instagram_username: RoamingLetters
+youtube_username: "@RoamingLetters"
 
 # google_analytics
 google_analytics: UA-175438287-1

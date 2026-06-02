@@ -1,0 +1,50 @@
+---
+layout: page
+title: Gear & Picks
+description: "Tried, tested & recommended travel gear — with honest Amazon picks"
+permalink: /gear/
+background: '/img/bg-post.jpg'
+---
+
+{% include affiliate-disclaimer.html %}
+
+<p style="font-size:1rem; color:#6B7280; margin-bottom:2rem;">
+  Everything listed here is gear I've personally used on my travels. No fluff, no paid placements —
+  just honest picks with Amazon links so you can grab them easily.
+</p>
+
+{% assign gear_posts = site.posts | where_exp: "post", "post.categories contains 'gear'" %}
+
+{% if gear_posts.size == 0 %}
+  <p>New gear posts coming soon! Follow <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">@RoamingLetters</a> for updates.</p>
+{% else %}
+
+<div class="posts-grid">
+  {% for post in gear_posts %}
+  <article class="post-card gear-card">
+    {% if post.background %}
+    <div class="card-img">
+      <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+        <img src="{{ post.background | prepend: site.baseurl | replace: '//', '/' }}" alt="{{ post.title | escape }}" loading="lazy">
+      </a>
+      <span class="card-category">GEAR PICKS</span>
+    </div>
+    {% endif %}
+    <div class="card-body">
+      <div class="card-title">
+        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a>
+      </div>
+      <p class="card-excerpt">{{ post.excerpt | strip_html | truncatewords: 22 }}</p>
+      <div class="card-meta">
+        <i class="far fa-calendar-alt"></i>
+        {{ post.date | date: '%b %d, %Y' }}
+        &nbsp;&middot;&nbsp;
+        <i class="far fa-clock"></i>
+        {% include read_time.html content=post.content %}
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+{% endif %}

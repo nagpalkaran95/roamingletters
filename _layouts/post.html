@@ -19,8 +19,7 @@ layout: default
             {% endif %}
             <span class="meta">Posted by
               <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
-              on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
-              content=page.content %}
+              on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=page.content %}
             </span>
           </div>
         </div>
@@ -32,21 +31,45 @@ layout: default
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
 
+        <!-- Auto-inject affiliate disclaimer for gear posts -->
+        {% if page.categories contains 'gear' %}
+          {% include affiliate-disclaimer.html %}
+        {% endif %}
+
         {{ content }}
+
+        <!-- Related Gear CTA for gear posts -->
+        {% if page.categories contains 'gear' %}
+        <div class="featured-gear-strip" style="margin-top:2rem;">
+          <div class="strip-header">
+            <div>
+              <h3>🎒 More Gear Picks</h3>
+              <p class="strip-subtitle">Browse all my tested travel recommendations</p>
+            </div>
+            <a class="btn-see-all" href="{{ "/gear" | relative_url }}">All Gear →</a>
+          </div>
+        </div>
+        {% endif %}
 
         <hr>
 
         <div class="clearfix">
-
           {% if page.previous.url %}
-          <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
-              Post</span></a>
+          <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
           {% endif %}
           {% if page.next.url %}
-          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
-              Post</span> &rarr;</a>
+          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
           {% endif %}
+        </div>
 
+        <!-- Instagram follow nudge -->
+        <div class="instagram-cta" style="margin-top:2rem;">
+          <span class="ig-icon"><i class="fab fa-instagram"></i></span>
+          <h3>Enjoyed this post?</h3>
+          <p>Follow <strong>@RoamingLetters</strong> on Instagram for daily travel inspiration &amp; gear shots.</p>
+          <a class="btn-instagram" href="https://instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener">
+            <i class="fab fa-instagram"></i> Follow @RoamingLetters
+          </a>
         </div>
 
       </div>
