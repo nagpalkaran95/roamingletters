@@ -22,7 +22,7 @@
           <a class="nav-link{% if current == '/about/' or current == '/about' or current == '/about.html' %} active{% endif %}" href="{{ "/about" | relative_url }}">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link{% if current contains '/posts' or (page.layout == 'post' and is_gear == false) %} active{% endif %}" href="{{ "/posts" | relative_url }}">Travel Diaries</a>
+          <a class="nav-link{% if current contains '/posts' or (page.path contains '_posts' and is_gear == false) %} active{% endif %}" href="{{ "/posts" | relative_url }}">Travel Diaries</a>
         </li>
         <li class="nav-item">
           <a class="nav-link nav-gear{% if current contains '/gear' or is_gear %} active{% endif %}" href="{{ "/gear" | relative_url }}">🎒 Gear &amp; Picks</a>
