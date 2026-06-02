@@ -7,9 +7,9 @@ background: '/img/bg-about.jpg'
 
 ### About the blog
 
-**The Unknown Explorer** — a space where life's adventures are chronicled like an ever-growing library of untold stories. Our lives are vast collections of memories, and through this blog, I aim to open the doors to mine, sharing journeys that span across India and the world.
+**RoamingLetters** — a space where life's adventures are chronicled like an ever-growing library of untold stories. Our lives are vast collections of memories, and through this blog, I aim to open the doors to mine, sharing journeys that span across India and the world.
 
-Each post invites you to experience new places, savor diverse cuisines, and explore with me as I follow my love for adventure and storytelling. For the curious traveler and passionate foodie, this blog is your ticket to live through my stories, one journey at a time.
+Each post invites you to experience new places, savor diverse cuisines, and explore with me as I follow my love for adventure and storytelling. For the curious traveler and passionate foodie, this blog is your ticket to live through my stories — one journey at a time.
 
 ### About Me
 

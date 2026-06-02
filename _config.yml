@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Unknown Explorer
+title: RoamingLetters
 email: nagpalkaran95@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Travel stories, gear picks & honest recommendations — by Karan @ RoamingLetters
-baseurl: "/the_unknown_explorer" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/roamingletters" # updated after GitHub repo rename
+url: "https://nagpalkaran95.github.io"
 author: Karan Nagpal
 
 # Brand
@@ -38,8 +38,8 @@ facebook_username: null
 linkedin_username: null
 twitter_username: null
 github_username: null
-instagram_username: RoamingLetters
-youtube_username: "@RoamingLetters"
+instagram_username: roamingletters
+youtube_username: "@roamingletters"
 
 # google_analytics
 google_analytics: UA-175438287-1
