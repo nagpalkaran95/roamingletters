@@ -28,7 +28,7 @@ body {
   text-align: left !important;
 }
 
-p { text-align: justify !important; }
+p { text-align: left; }
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-heading !important;
   font-weight: 700;
@@ -80,15 +80,27 @@ hr { border: none; border-top: 1px solid $color-border; margin: 2.5rem 0; }
       transition: width 0.25s ease;
     }
     &:hover { color: $color-terracotta !important; &::after { width: 60%; } }
+    &.active:not(.nav-gear) {
+      color: $color-terracotta !important;
+      &::after { width: 60%; }
+    }
     &.nav-gear {
-      background: linear-gradient(135deg, $color-terracotta, darken($color-terracotta, 8%));
-      color: $color-white !important;
+      background: transparent;
+      border: 1.5px solid $color-terracotta;
+      color: $color-terracotta !important;
       border-radius: 20px;
-      padding: 0.4rem 1.1rem !important;
+      padding: 0.35rem 1.1rem !important;
       margin-left: 0.5rem;
       font-weight: 600;
+      transition: all 0.2s ease;
       &::after { display: none; }
-      &:hover { background: linear-gradient(135deg, darken($color-terracotta, 5%), darken($color-terracotta, 14%)); color: $color-white !important; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(192, 112, 90, 0.35); }
+      &:hover, &.active {
+        background: linear-gradient(135deg, $color-terracotta, darken($color-terracotta, 8%));
+        color: $color-white !important;
+        border-color: transparent;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(192, 112, 90, 0.35);
+      }
     }
     &.nav-instagram { color: $color-terracotta !important; font-size: 1.1rem; &::after { display: none; } }
   }
