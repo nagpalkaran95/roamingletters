@@ -27,6 +27,13 @@
             <i class="fab fa-instagram"></i>
           </a>
         </li>
+        {% if site.youtube_username %}
+        <li class="nav-item">
+          <a class="nav-link nav-instagram" href="https://youtube.com/{{ site.youtube_username }}" target="_blank" rel="noopener" title="{{ site.youtube_username }} on YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+        {% endif %}
       </ul>
     </div>
   </div>

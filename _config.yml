@@ -21,7 +21,7 @@
 title: RoamingLetters
 email: nagpalkaran95@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Travel stories, gear picks & honest recommendations — by Karan @ RoamingLetters
+  Travel stories, gear picks & honest recommendations
 baseurl: "/roamingletters" # updated after GitHub repo rename
 url: "https://nagpalkaran95.github.io"
 author: Karan Nagpal
