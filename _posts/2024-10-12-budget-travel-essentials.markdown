@@ -14,7 +14,7 @@ Not all great travel gear has to be expensive. After years of travel, I've found
 Roll-up compression bags are the single best way to double your bag's capacity. Perfect for bulky items like jackets and jeans. Squeeze the air out, and they shrink to half the size.
 
 <div class="amazon-product">
-  <span class="product-icon">💨</span>
+  <img class="product-img" src="https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?auto=format&fit=crop&w=300&q=80" alt="Compression Packing Bags">
   <div class="product-info">
     <div class="product-name">Compression Roll-Up Packing Bags (5-pack)</div>
     <div class="product-desc">No vacuum pump needed - just roll to compress. Works for clothes, towels, light jackets. A travel essential I've used since my first trip to Udaipur.</div>
@@ -29,7 +29,7 @@ Roll-up compression bags are the single best way to double your bag's capacity. 
 Airport security limits liquids to 100ml. Buy a set of leak-proof travel bottles and fill them with your regular products instead of buying overpriced travel-sized brands.
 
 <div class="amazon-product">
-  <span class="product-icon">🧴</span>
+  <img class="product-img" src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&w=300&q=80" alt="Leak-Proof Toiletry Bottles">
   <div class="product-info">
     <div class="product-name">Leak-Proof Travel Bottles (6-piece set)</div>
     <div class="product-desc">TSA-approved sizes, silicone with flip caps, won't leak in your bag. Comes with a clear zip pouch for airport security. Gets used on every trip.</div>
@@ -44,7 +44,7 @@ Airport security limits liquids to 100ml. Buy a set of leak-proof travel bottles
 Economy flights. Noisy hostels. Bright hotel curtains. A good sleep mask is the cheapest productivity hack for travel - rest well and enjoy your days more.
 
 <div class="amazon-product">
-  <span class="product-icon">😴</span>
+  <img class="product-img" src="https://images.unsplash.com/photo-1582298538104-fc76a85d8eb6?auto=format&fit=crop&w=300&q=80" alt="Contoured Sleep Mask">
   <div class="product-info">
     <div class="product-name">Contoured Sleep Mask</div>
     <div class="product-desc">Contoured design doesn't press on eyes. Adjustable strap. Keeps light out completely for deep rest during long flights or noisy hotel stays.</div>
@@ -59,7 +59,7 @@ Economy flights. Noisy hostels. Bright hotel curtains. A good sleep mask is the 
 Underrated travel tool. Clip wet clothes to the outside of your bag to dry while walking. Attach your water bottle to your pack. Hook bags together. Endless utility, near-zero weight.
 
 <div class="amazon-product">
-  <span class="product-icon">🪝</span>
+  <img class="product-img" src="https://images.unsplash.com/photo-1521106047354-5a5b85e819ee?auto=format&fit=crop&w=300&q=80" alt="Aluminium Carabiner Clips">
   <div class="product-info">
     <div class="product-name">Aluminium Carabiner Clips (Set of 4)</div>
     <div class="product-desc">Lightweight but strong, multi-purpose clips. I keep 2 on my bag straps permanently - they've been the most unexpectedly useful items I've ever packed.</div>
@@ -74,7 +74,7 @@ Underrated travel tool. Clip wet clothes to the outside of your bag to dry while
 Hydration is key, especially in the heat of Southeast Asia or Rajasthan. A collapsible bottle flattens completely when empty - no wasted bag space.
 
 <div class="amazon-product">
-  <span class="product-icon">💧</span>
+  <img class="product-img" src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=300&q=80" alt="Collapsible Silicone Water Bottle">
   <div class="product-info">
     <div class="product-name">Collapsible Silicone Water Bottle (750ml)</div>
     <div class="product-desc">Food-grade silicone, BPA-free, dishwasher safe. Folds to 2cm when empty. Clip on a carabiner (see above!) and you're set for any hike or day trip.</div>
@@ -89,7 +89,7 @@ Hydration is key, especially in the heat of Southeast Asia or Rajasthan. A colla
 Medical help can be unreliable or expensive abroad. A compact first aid kit with band-aids, antiseptic wipes, ORS packets, and basic medication covers most minor travel incidents.
 
 <div class="amazon-product">
-  <span class="product-icon">🩹</span>
+  <img class="product-img" src="https://images.unsplash.com/photo-1603398938378-e54eab446edd?auto=format&fit=crop&w=300&q=80" alt="Compact Travel First Aid Kit">
   <div class="product-info">
     <div class="product-name">Compact Travel First Aid Kit</div>
     <div class="product-desc">Fits in a side pocket. Contains the essentials: adhesive bandages, antiseptic wipes, gauze, tape, tweezers. I've used mine across India and internationally.</div>
