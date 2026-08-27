@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "3 Must-Have Travel Essentials"
+title: "4 Must-Have Travel Essentials"
 subtitle: "The non-negotiable items I pack first before any adventure"
 date: 2026-06-05 00:00:00 +0530
 categories: gear travel
 background: '/img/gear/essentials_banner.jpg'
 ---
 
-After years of traveling across different cities, countries, and terrains, my packing routine has become highly optimized. While some gear depends on the destination, there are three non-negotiable items I pack first on every single trip. 
+After years of traveling across different cities, countries, and terrains, my packing routine has become highly optimized. While some gear depends on the destination, there are four non-negotiable items I pack first on every single trip. 
 
-These items solve the three biggest travel headaches: getting stable photos, keeping devices powered, and keeping toiletries clean and organized.
+These items solve the biggest travel headaches: keeping documents secure, getting stable photos, keeping devices powered, and keeping toiletries clean and organized.
 
 ### 1. Selfie Stick & Tripod Stand
 
@@ -56,8 +56,23 @@ Living out of a backpack or suitcase means constantly packing and unpacking. Toi
   </div>
 </div>
 
+### 4. Anti-Theft Crossbody Sling Bag
+
+When exploring airports, train stations, or busy city streets, you need quick access to your essentials without constantly taking off your backpack. A water-resistant crossbody sling bag keeps your phone, passport, cash, cards, and keys securely against your chest and within easy reach.
+
+<div class="amazon-product">
+  <img class="product-img" src="{{ '/img/gear/crossbody_bag.jpg' | prepend: site.baseurl | replace: '//', '/' }}" alt="Crossbody Travel Bag">
+  <div class="product-info">
+    <div class="product-name">Simptech Crossbody Travel Sling Bag</div>
+    <div class="product-desc">Lightweight, water-resistant shoulder bag with multiple zippered pockets. Perfect for securely carrying your phone, passport, currency, and travel documents on the go.</div>
+    <a class="btn-amazon" href="https://www.amazon.in/dp/B0FQ4Z9QQK/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">
+      <i class="fab fa-amazon"></i> Check on Amazon
+    </a>
+  </div>
+</div>
+
 ---
 
-If you're looking to upgrade your travel setup, start with these three essentials. They are durable, high-utility, and make a massive difference in how smoothly your trips run.
+If you're looking to upgrade your travel setup, start with these four essentials. They are durable, high-utility, and make a massive difference in how smoothly your trips run.
 
 Happy packing! 🎒✈️
