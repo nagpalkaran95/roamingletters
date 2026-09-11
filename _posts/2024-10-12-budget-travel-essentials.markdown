@@ -39,16 +39,16 @@ Airport security limits liquids to 100ml. Buy a set of leak-proof travel bottles
   </div>
 </div>
 
-### 3. Contoured Sleep Mask (₹150–₹400)
+### 3. Soft Plush Sleep Mask (₹150–₹400)
 
 Economy flights. Noisy hostels. Bright hotel curtains. A good sleep mask is the cheapest productivity hack for travel - rest well and enjoy your days more.
 
 <div class="amazon-product">
-  <img class="product-img" src="https://images.unsplash.com/photo-1582298538104-fc76a85d8eb6?auto=format&fit=crop&w=300&q=80" alt="Contoured Sleep Mask">
+  <img class="product-img" src="{{ '/img/gear/sleep_mask.jpg' | prepend: site.baseurl | replace: '//', '/' }}" alt="Soft Plush Sleep Mask">
   <div class="product-info">
-    <div class="product-name">Contoured Sleep Mask</div>
-    <div class="product-desc">Contoured design doesn't press on eyes. Adjustable strap. Keeps light out completely for deep rest during long flights or noisy hotel stays.</div>
-    <a class="btn-amazon" href="https://www.amazon.in/dp/B0BQM83QVL/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">
+    <div class="product-name">Soft Plush Sleep Mask</div>
+    <div class="product-desc">Soft, plush fabric feels gentle against your skin. Adjustable strap fits any head size. Blocks light completely for deep rest during long flights or noisy hotel stays.</div>
+    <a class="btn-amazon" href="https://link.amazon/B05gusqpH" target="_blank" rel="noopener sponsored">
       <i class="fab fa-amazon"></i> Check on Amazon India
     </a>
   </div>
@@ -89,7 +89,7 @@ Hydration is key, especially in the heat of Southeast Asia or Rajasthan. A colla
 Medical help can be unreliable or expensive abroad. A compact first aid kit with band-aids, antiseptic wipes, ORS packets, and basic medication covers most minor travel incidents.
 
 <div class="amazon-product">
-  <img class="product-img" src="https://images.unsplash.com/photo-1603398938378-e54eab446edd?auto=format&fit=crop&w=300&q=80" alt="Compact Travel First Aid Kit">
+  <img class="product-img" src="{{ '/img/gear/first_aid_kit.jpg' | prepend: site.baseurl | replace: '//', '/' }}" alt="Compact Travel First Aid Kit">
   <div class="product-info">
     <div class="product-name">Compact Travel First Aid Kit</div>
     <div class="product-desc">Fits in a side pocket. Contains the essentials: adhesive bandages, antiseptic wipes, gauze, tape, tweezers. I've used mine across India and internationally.</div>
