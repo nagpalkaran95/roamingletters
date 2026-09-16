@@ -232,6 +232,35 @@ footer { background: $color-navy !important; color: rgba(255,255,255,0.75); padd
 .center { display: block; margin: 1.5rem auto; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
 .image-caption { text-align: center !important; font-size: 0.78rem; color: $color-text-muted; margin-top: -1rem; margin-bottom: 1.5rem; font-style: italic; }
 
+// POST WITH SIDEBAR: two-column layout on desktop, stacked on mobile.
+// Post body opts in via `sidebar:` in the front-matter; layout otherwise
+// unchanged (main stays centered in col-lg-8 col-md-10 mx-auto).
+.post-body.has-sidebar {
+  @media (min-width: 992px) {
+    align-items: flex-start;
+  }
+}
+.post-sidebar {
+  padding-top: 1.25rem;
+  @media (min-width: 992px) {
+    position: sticky;
+    top: 88px;
+    align-self: start;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    padding-left: 1.5rem;
+    border-left: 1px solid $color-border;
+  }
+  // Space between stacked sidebar items
+  .sidebar-item + .sidebar-item { margin-top: 1.75rem; }
+  // Neutralize item defaults so sidebar looks tidy at narrow widths
+  .ig-embed { max-width: 100%; margin: 0; }
+  .post-photo { margin: 0; }
+  .sidebar-note-title { font-family: $font-heading !important; font-size: 1.05rem; color: $color-navy; margin: 0 0 0.4rem; text-align: left !important; }
+  .sidebar-note-body { font-size: 0.9rem; color: $color-text; line-height: 1.55; margin: 0 0 0.5rem; text-align: left !important; }
+  .sidebar-note-cta { margin: 0.35rem 0 0; a { font-weight: 600; font-size: 0.9rem; } }
+}
+
 // POST PHOTOS: single figure with optional caption, landscape by default,
 // portrait scoped so tall shots don't dominate the reading column
 .post-photo {
@@ -614,5 +643,7 @@ a.amazon-inline {
   .post-photo.portrait img { max-width: 85%; }
   .post-gallery { grid-template-columns: 1fr; gap: 0.85rem; margin: 1.5rem 0; }
   .ig-embed { margin: 1.5rem 0; }
+  // Sidebar on mobile: sit below main content, no sticky, no border
+  .post-sidebar { padding: 1.5rem 0 0; margin-top: 1rem; border-top: 1px solid $color-border; }
   body:has(.sticky-gear-cta) { padding-bottom: 64px; }
 }

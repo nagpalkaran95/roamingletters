@@ -7,6 +7,13 @@ categories: [itinerary]
 tags: [bali, international, southeast-asia, honeymoon, travel]
 background: '/img/bg-post.jpg'
 excerpt: "The exact 12-night Bali route we took for our honeymoon in March - Ubud, Munduk, Nusa Lembongan and Uluwatu, with day-by-day plans, transport costs, and the logistics that made it work."
+sidebar:
+  - type: note
+    title: "Vegetarian? So are we."
+    body: "Here is everything we ate on this trip - what to order and where to find it."
+  - type: instagram
+    url: https://www.instagram.com/p/DXFElXtjwiS/
+    caption: "Tap the reel to open it on Instagram"
 ---
 
 We spent 12 nights in Bali this March for our honeymoon, and this is the exact plan we followed. The logic was simple: jungle and parties first, mountains next, then slow island days, and finally the cliffs near the airport so the last day is easy.
@@ -15,10 +22,6 @@ If you are planning your own trip, feel free to copy this as-is.
 
 **When we went:** March 6 to March 18
 **Route:** Ubud (3 nights) - Munduk (3 nights) - Nusa Lembongan (3 nights) - Uluwatu (3 nights)
-
-**Vegetarian? So are we.** Here is everything we ate on this trip - what to order and where to find it.
-
-{% include instagram.html url="https://www.instagram.com/p/DXFElXtjwiS/" caption="Tap the reel to open it on Instagram" %}
 
 ## Phase 1: Ubud - culture, party and adrenaline
 {: .phase-heading}
