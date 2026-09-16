@@ -232,14 +232,29 @@ footer { background: $color-navy !important; color: rgba(255,255,255,0.75); padd
 .center { display: block; margin: 1.5rem auto; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
 .image-caption { text-align: center !important; font-size: 0.78rem; color: $color-text-muted; margin-top: -1rem; margin-bottom: 1.5rem; font-style: italic; }
 
-// POST WITH SIDEBAR: two-column layout on desktop, stacked on mobile.
-// Post body opts in via `sidebar:` in the front-matter; layout otherwise
-// unchanged (main stays centered in col-lg-8 col-md-10 mx-auto).
+// Wider container for posts with a sidebar - reclaims horizontal viewport
+// space that a 1140px container leaves as dead margin on desktop
+@media (min-width: 992px)  { .container-wide { max-width: 1080px; } }
+@media (min-width: 1200px) { .container-wide { max-width: 1320px; } }
+
+// POST WITH SIDEBAR: two-column CSS Grid on desktop for a real column gap
+// (Bootstrap's flex columns can only fake a gap via padding). Mobile keeps
+// the default Bootstrap column wrap so sidebar stacks below main.
 .post-body.has-sidebar {
   @media (min-width: 992px) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 340px);
+    gap: 5rem;
     align-items: flex-start;
-    // Widen the visible gap between main content and sidebar
-    .post-main { padding-right: 2.5rem; }
+    margin-left: 0;
+    margin-right: 0;
+    > .post-main,
+    > .post-sidebar {
+      max-width: none;
+      flex: none;
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 }
 .post-sidebar {
@@ -250,8 +265,6 @@ footer { background: $color-navy !important; color: rgba(255,255,255,0.75); padd
     align-self: start;
     max-height: calc(100vh - 100px);
     overflow-y: auto;
-    // Sidebar content sits close to its column edge (no divider, minimal inset)
-    padding-left: 0.25rem;
   }
   // Space between stacked sidebar items
   .sidebar-item + .sidebar-item { margin-top: 1.75rem; }

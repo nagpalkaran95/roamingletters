@@ -24,7 +24,7 @@ layout: default
     </div>
   </header>
 
-  <div class="container">
+  <div class="container{% if page.sidebar %} container-wide{% endif %}">
     <div class="row post-body{% if page.sidebar %} has-sidebar{% endif %}">
       <main class="post-main {% if page.sidebar %}col-lg-8 col-12{% else %}col-lg-8 col-md-10 mx-auto{% endif %}">
 
