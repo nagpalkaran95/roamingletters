@@ -10,6 +10,19 @@ excerpt: "From a 45L rucksack to a waterproof phone pouch - 9 gear items tested 
 redirect_from:
   - /gear/travel/2024/10/09/vietnam-travel-gear.html
   - /gear/travel/2024/10/10/vietnam-travel-gear.html
+sidebar:
+  - type: product
+    tagline: "Our top pick"
+    name: "Wildcraft 45L Rucksack"
+    desc: "Carry-on friendly, rain cover included, tested across 3 Vietnamese cities."
+    image: /img/gear/backpack_thumb.jpg
+    link: https://www.amazon.in/dp/B01G5I8YLC/?tag=roamingletter-21
+    cta: "View on Amazon"
+  - type: note
+    title: "Follow @roamingletters"
+    body: "Daily travel shots and gear in action on Instagram."
+    link_text: "Follow us →"
+    link_url: https://instagram.com/roamingletters
 ---
 
 After spending 9 days across Ho Chi Minh City, Da Nang, and Hanoi, I learned quickly what gear earns its place in your bag - and what doesn't. This is my definitive list of 9 travel essentials for any trip, honed through real experience.

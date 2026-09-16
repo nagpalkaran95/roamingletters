@@ -10,6 +10,19 @@ excerpt: "4 non-negotiable items I pack first before any trip - the selfie tripo
 redirect_from:
   - /gear/travel/2026/06/04/four-must-have-travel-essentials.html
   - /gear/travel/2026/06/05/four-must-have-travel-essentials.html
+sidebar:
+  - type: product
+    tagline: "Our top pick"
+    name: "Simptech Crossbody Sling"
+    desc: "Water-resistant, hidden pockets, always on you. Our daily-carry across every trip."
+    image: /img/gear/crossbody_bag.jpg
+    link: https://www.amazon.in/dp/B0FQ4Z9QQK/?tag=roamingletter-21
+    cta: "View on Amazon"
+  - type: note
+    title: "Follow @roamingletters"
+    body: "Daily travel shots and gear in action on Instagram."
+    link_text: "Follow us →"
+    link_url: https://instagram.com/roamingletters
 ---
 
 After years of traveling across different cities, countries, and terrains, my packing routine has become highly optimized. While some gear depends on the destination, there are four non-negotiable items I pack first on every single trip.

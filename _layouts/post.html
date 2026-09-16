@@ -176,6 +176,22 @@ layout: default
               {% if item.title %}<h4 class="sidebar-note-title">{{ item.title }}</h4>{% endif %}
               {% if item.body %}<p class="sidebar-note-body">{{ item.body }}</p>{% endif %}
               {% if item.link_url %}<p class="sidebar-note-cta"><a href="{{ item.link_url }}"{% if item.link_url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ item.link_text | default: 'Learn more →' }}</a></p>{% endif %}
+            {% when 'product' %}
+              <div class="sidebar-product">
+                {% if item.image %}
+                <a class="sidebar-product-img" href="{{ item.link }}" target="_blank" rel="noopener sponsored">
+                  <img src="{{ item.image | prepend: site.baseurl | replace: '//', '/' }}" alt="{{ item.name | escape }}" loading="lazy" onerror="this.style.display='none'">
+                </a>
+                {% endif %}
+                {% if item.tagline %}<span class="sidebar-product-tagline">{{ item.tagline }}</span>{% endif %}
+                <h4 class="sidebar-product-name">
+                  <a href="{{ item.link }}" target="_blank" rel="noopener sponsored">{{ item.name }}</a>
+                </h4>
+                {% if item.desc %}<p class="sidebar-product-desc">{{ item.desc }}</p>{% endif %}
+                <a class="sidebar-product-cta" href="{{ item.link }}" target="_blank" rel="noopener sponsored">
+                  <i class="fab fa-amazon"></i> {{ item.cta | default: 'View on Amazon' }}
+                </a>
+              </div>
           {% endcase %}
         </div>
         {% endfor %}

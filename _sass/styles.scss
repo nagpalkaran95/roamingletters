@@ -238,6 +238,8 @@ footer { background: $color-navy !important; color: rgba(255,255,255,0.75); padd
 .post-body.has-sidebar {
   @media (min-width: 992px) {
     align-items: flex-start;
+    // Widen the visible gap between main content and sidebar
+    .post-main { padding-right: 2.5rem; }
   }
 }
 .post-sidebar {
@@ -248,8 +250,8 @@ footer { background: $color-navy !important; color: rgba(255,255,255,0.75); padd
     align-self: start;
     max-height: calc(100vh - 100px);
     overflow-y: auto;
-    padding-left: 1.5rem;
-    border-left: 1px solid $color-border;
+    // Sidebar content sits close to its column edge (no divider, minimal inset)
+    padding-left: 0.25rem;
   }
   // Space between stacked sidebar items
   .sidebar-item + .sidebar-item { margin-top: 1.75rem; }
@@ -259,6 +261,33 @@ footer { background: $color-navy !important; color: rgba(255,255,255,0.75); padd
   .sidebar-note-title { font-family: $font-heading !important; font-size: 1.05rem; color: $color-navy; margin: 0 0 0.4rem; text-align: left !important; }
   .sidebar-note-body { font-size: 0.9rem; color: $color-text; line-height: 1.55; margin: 0 0 0.5rem; text-align: left !important; }
   .sidebar-note-cta { margin: 0.35rem 0 0; a { font-weight: 600; font-size: 0.9rem; } }
+
+  // Sidebar product CTA card: small affiliate box with image, tagline, name, Amazon button
+  .sidebar-product {
+    background: $color-white;
+    border: 1px solid $color-border;
+    border-top: 3px solid $color-gold;
+    border-radius: 12px;
+    padding: 1rem 1.1rem 1.15rem;
+    text-align: center;
+    .sidebar-product-img { display: block; margin: 0 auto 0.75rem;
+      img { display: block; width: 100%; max-width: 140px; height: auto; margin: 0 auto; border-radius: 8px; transition: transform 0.2s ease; }
+      &:hover img { transform: scale(1.04); }
+    }
+    .sidebar-product-tagline { display: inline-block; font-size: 0.66rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: $color-terracotta; margin-bottom: 0.3rem; }
+    .sidebar-product-name { font-family: $font-heading !important; font-size: 1rem; color: $color-navy; margin: 0 0 0.6rem; text-align: center !important; line-height: 1.3;
+      a { color: $color-navy; &:hover { color: $color-terracotta; } }
+    }
+    .sidebar-product-desc { font-size: 0.82rem; color: $color-text-muted; line-height: 1.5; margin: 0 0 0.75rem; text-align: center !important; }
+    .sidebar-product-cta {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      background: #FF9900; color: $color-navy !important;
+      font-weight: 700; font-size: 0.82rem;
+      padding: 0.5rem 1.1rem; border-radius: 20px;
+      transition: all 0.2s ease;
+      &:hover { background: darken(#FF9900, 8%); transform: translateY(-1px); box-shadow: 0 4px 14px rgba(255,153,0,0.4); }
+    }
+  }
 }
 
 // POST PHOTOS: single figure with optional caption, landscape by default,

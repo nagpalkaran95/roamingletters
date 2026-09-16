@@ -10,6 +10,19 @@ excerpt: "6 travel essentials under ₹2000 each - compression bags, leak-proof 
 redirect_from:
   - /gear/travel/2024/10/11/budget-travel-essentials.html
   - /gear/travel/2024/10/12/budget-travel-essentials.html
+sidebar:
+  - type: product
+    tagline: "Our top pick"
+    name: "Compression Roll-Up Packing Bags"
+    desc: "Doubles your bag's capacity. No pump needed - just roll to compress."
+    image: /img/gear/compression_bags.jpg
+    link: https://www.amazon.in/dp/B0DSFSDTMB/?tag=roamingletter-21
+    cta: "View on Amazon"
+  - type: note
+    title: "Follow @roamingletters"
+    body: "Daily travel shots and gear in action on Instagram."
+    link_text: "Follow us →"
+    link_url: https://instagram.com/roamingletters
 ---
 
 Not all great travel gear has to be expensive. After years of travel, I've found that the most useful items are often the cheapest. Here are my top budget picks - all under ₹2000 on Amazon India - that I use on every trip.
