@@ -13,6 +13,11 @@
   image: /img/bg-post.jpg
   blurb: "Our honeymoon island - jungle, misty mountains, manta rays, and cliff sunsets."
 
+- name: Malaysia
+  slug: malaysia
+  image: /img/international-diaries/travel-checklist/banner.jpg
+  blurb: "KL's towers, Ipoh's slow lanes, and a scooter loop around Penang island."
+
 - name: Vietnam
   slug: vietnam
   image: /img/international-diaries/vietnam/banner.jpg
