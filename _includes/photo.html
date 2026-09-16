@@ -1,27 +1,31 @@
 {%- comment -%}
-Single post image with optional caption.
+Single post image with optional caption and optional outbound link.
 
 Usage:
   {% include photo.html src="/img/malaysia/petronas.jpg" alt="Petronas twin towers at night" caption="Best viewed after 8 PM" %}
-  {% include photo.html src="/img/malaysia/silver-jewelry.jpg" alt="Silver jewelry we made" caption="Our matching rings from the Hanoman workshop" orientation="portrait" %}
+  {% include photo.html src="/img/malaysia/silver-jewelry.jpg" alt="Silver jewelry we made" caption="Our matching rings" orientation="portrait" %}
+  {% include photo.html src="/img/bali/food-thumb.jpg" alt="Bali food reel" link="https://www.instagram.com/p/DXFElXtjwiS/" caption="Tap to watch the reel" %}
 
 Params:
   src         (required) Path under /img/ (site.baseurl is added automatically)
   alt         (required) Description for accessibility + SEO
   caption     (optional) Italic caption shown below the image
-  orientation (optional) "portrait" caps width so tall photos don't dominate; default is full-width landscape
+  orientation (optional) "portrait" caps width so tall photos don't dominate
+  link        (optional) If set, wraps the image in an outbound link (opens in new tab)
 
 Fail-safes:
-  - If src is empty or missing, nothing renders.
+  - If src is empty, nothing renders.
   - If the image file 404s at runtime, the whole figure hides via onerror
     so readers never see a broken-image icon.
 {%- endcomment -%}
 {% if include.src and include.src != '' %}
-<figure class="post-photo{% if include.orientation == 'portrait' %} portrait{% endif %}">
+<figure class="post-photo{% if include.orientation == 'portrait' %} portrait{% endif %}{% if include.link %} linked{% endif %}">
+  {% if include.link %}<a href="{{ include.link }}" target="_blank" rel="noopener">{% endif %}
   <img src="{{ include.src | prepend: site.baseurl | replace: '//', '/' }}"
        alt="{{ include.alt | default: include.caption | default: '' | escape }}"
        loading="lazy"
        onerror="this.closest('figure').style.display='none'">
+  {% if include.link %}</a>{% endif %}
   {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
 </figure>
 {% endif %}

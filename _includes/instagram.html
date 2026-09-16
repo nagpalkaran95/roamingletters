@@ -1,0 +1,37 @@
+{%- comment -%}
+Embed an Instagram post or reel. The iframe uses Instagram's official
+/embed endpoint - it shows the thumbnail, first line of the caption, and
+likes/comments; tapping anywhere opens the post in Instagram.
+
+Usage:
+  {% include instagram.html url="https://www.instagram.com/p/DXFElXtjwiS/" %}
+  {% include instagram.html url="https://www.instagram.com/reel/ABC123/" caption="What we ate in Bali" %}
+  {% include instagram.html url="https://www.instagram.com/p/DXFElXtjwiS/" height="700" %}
+
+Params:
+  url     (required) Full URL to the Instagram post or reel (with or without query string)
+  caption (optional) Small italic caption shown below the embed (your words, not IG's)
+  height  (optional) Iframe height in px, default 640
+
+Fail-safes:
+  - If url is empty, nothing renders (no broken embed frame).
+  - Query strings and tracking params are stripped automatically.
+  - Trailing slash is added if missing (Instagram requires it).
+{%- endcomment -%}
+{% if include.url and include.url != '' %}
+  {% assign clean = include.url | split: '?' | first | replace: 'http://', 'https://' %}
+  {% assign last_char = clean | slice: -1, 1 %}
+  {% unless last_char == '/' %}{% assign clean = clean | append: '/' %}{% endunless %}
+  <figure class="ig-embed">
+    <iframe src="{{ clean | append: 'embed/' }}"
+            width="100%"
+            height="{{ include.height | default: 640 }}"
+            frameborder="0"
+            scrolling="no"
+            allowtransparency="true"
+            allowfullscreen="true"
+            loading="lazy"
+            title="Instagram post"></iframe>
+    {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+  </figure>
+{% endif %}

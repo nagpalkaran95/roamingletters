@@ -16,14 +16,9 @@ If you are planning your own trip, feel free to copy this as-is.
 **When we went:** March 6 to March 18
 **Route:** Ubud (3 nights) - Munduk (3 nights) - Nusa Lembongan (3 nights) - Uluwatu (3 nights)
 
-<div class="packed-callout">
-  <span class="packed-icon">🥗</span>
-  <div class="packed-text">
-    <strong>Vegetarian? So are we.</strong>
-    <p>We documented everything we ate on this trip - what to order and where to find it.</p>
-  </div>
-  <a class="btn-packed" href="https://www.instagram.com/p/DXFElXtjwiS/" target="_blank" rel="noopener">See what we ate on Instagram →</a>
-</div>
+**Vegetarian? So are we.** Here is everything we ate on this trip - what to order and where to find it.
+
+{% include instagram.html url="https://www.instagram.com/p/DXFElXtjwiS/" caption="Tap the reel to open it on Instagram" %}
 
 ## Phase 1: Ubud - culture, party and adrenaline
 {: .phase-heading}
