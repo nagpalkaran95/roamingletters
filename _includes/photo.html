@@ -1,0 +1,17 @@
+{%- comment -%}
+Single post image with optional caption.
+
+Usage:
+  {% include photo.html src="/img/malaysia/petronas.jpg" alt="Petronas twin towers at night" caption="Best viewed after 8 PM" %}
+  {% include photo.html src="/img/malaysia/silver-jewelry.jpg" alt="Silver jewelry we made" caption="Our matching rings from the Hanoman workshop" orientation="portrait" %}
+
+Params:
+  src         (required) Path under /img/ (site.baseurl is added automatically)
+  alt         (required) Description for accessibility + SEO
+  caption     (optional) Italic caption shown below the image
+  orientation (optional) "portrait" caps width so tall photos don't dominate; default is full-width landscape
+{%- endcomment -%}
+<figure class="post-photo{% if include.orientation == 'portrait' %} portrait{% endif %}">
+  <img src="{{ include.src | prepend: site.baseurl | replace: '//', '/' }}" alt="{{ include.alt | escape }}" loading="lazy">
+  {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>

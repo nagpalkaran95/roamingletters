@@ -1,0 +1,27 @@
+{%- comment -%}
+Multi-photo grid (2-up on desktop, 1-up on mobile). Great for showing a
+pair of shots side by side without either dominating the layout.
+
+Usage (pipe-separated so captions can contain commas):
+  {% include gallery.html
+     photos="/img/malaysia/kl-tower.jpg|/img/malaysia/twin-towers.jpg"
+     captions="KL Tower at dusk|Petronas from KLCC Park" %}
+
+Params:
+  photos   (required) Pipe-separated list of image paths (2+)
+  captions (optional) Pipe-separated captions in the same order
+
+All images render as 4:3 crops so mixed orientations still align cleanly.
+{%- endcomment -%}
+<div class="post-gallery">
+{% assign photos = include.photos | split: '|' %}
+{% assign captions = include.captions | default: '' | split: '|' %}
+{% for src in photos %}
+  {% assign trimmed = src | strip %}
+  {% assign cap = captions[forloop.index0] | default: '' | strip %}
+  <figure>
+    <img src="{{ trimmed | prepend: site.baseurl | replace: '//', '/' }}" alt="{{ cap | escape }}" loading="lazy">
+    {% if cap != '' %}<figcaption>{{ cap }}</figcaption>{% endif %}
+  </figure>
+{% endfor %}
+</div>

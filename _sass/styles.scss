@@ -220,11 +220,69 @@ header.masthead {
 footer { background: $color-navy !important; color: rgba(255,255,255,0.75); padding: 3rem 0 2rem; margin-top: 3rem; border-top: none !important; .footer-brand { font-family: $font-heading !important; font-size: 1.4rem; font-weight: 700; color: $color-white; margin-bottom: 0.25rem; span { color: $color-terracotta; } } .footer-tagline { font-size: 0.83rem; color: rgba(255,255,255,0.5); margin-bottom: 1.5rem; text-align: center !important; } .footer-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; justify-content: center; margin-bottom: 1.5rem; list-style: none; padding: 0; li a { font-size: 0.82rem; color: rgba(255,255,255,0.6); transition: color 0.2s; &:hover { color: $color-gold-light; } } } .list-inline-item a { .fa-stack { .fa-circle { color: rgba(255,255,255,0.12) !important; } .fa-stack-1x { color: rgba(255,255,255,0.75) !important; } } &:hover { .fa-circle { color: $color-terracotta !important; } .fa-stack-1x { color: $color-white !important; } } } .copyright { font-size: 0.78rem; color: rgba(255,255,255,0.35) !important; margin-top: 1rem; text-align: center !important; } p { text-align: center !important; } }
 
 // POST CONTENT
-.container .row .col-lg-8 { blockquote { border-left: 4px solid $color-terracotta; padding: 0.75rem 1.25rem; background: $color-sand; border-radius: 0 10px 10px 0; font-style: italic; color: $color-text-muted; margin: 1.5rem 0; p { text-align: left !important; margin: 0; } } }
+.container .row .col-lg-8 {
+  // Sub-section headings (day / mini-section h3s) need more breathing room
+  // than browser default - especially after tables and lists
+  h3 { margin-top: 2.5rem; margin-bottom: 0.75rem; }
+  h4 { margin-top: 1.75rem; margin-bottom: 0.5rem; }
+  blockquote { border-left: 4px solid $color-terracotta; padding: 0.75rem 1.25rem; background: $color-sand; border-radius: 0 10px 10px 0; font-style: italic; color: $color-text-muted; margin: 1.5rem 0; p { text-align: left !important; margin: 0; } }
+}
 
 // IMAGES
 .center { display: block; margin: 1.5rem auto; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
 .image-caption { text-align: center !important; font-size: 0.78rem; color: $color-text-muted; margin-top: -1rem; margin-bottom: 1.5rem; font-style: italic; }
+
+// POST PHOTOS: single figure with optional caption, landscape by default,
+// portrait scoped so tall shots don't dominate the reading column
+.post-photo {
+  margin: 2rem 0;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 32px rgba(28,43,58,0.14);
+  }
+  figcaption {
+    font-size: 0.82rem;
+    font-style: italic;
+    color: $color-text-muted;
+    text-align: center;
+    margin-top: 0.6rem;
+    padding: 0 0.5rem;
+  }
+  &.portrait {
+    img { max-width: 65%; margin: 0 auto; max-height: 75vh; object-fit: contain; background: $color-sand; }
+  }
+}
+
+// POST GALLERY: 2-up grid for a pair of images side by side. All slots
+// crop to 4:3 so a landscape + portrait pair still aligns cleanly.
+.post-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+  figure {
+    margin: 0;
+    img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 6px 20px rgba(28,43,58,0.12);
+      display: block;
+    }
+    figcaption {
+      font-size: 0.78rem;
+      font-style: italic;
+      color: $color-text-muted;
+      text-align: center;
+      margin-top: 0.4rem;
+    }
+  }
+}
 
 // FOOTER DISCLAIMER (Amazon Associates compliance - keep visible)
 .footer-disclaimer {
@@ -520,5 +578,8 @@ a.amazon-inline {
   .packed-callout { flex-direction: column; align-items: flex-start; }
   .start-here-banner { padding: 1rem 1.25rem; margin: 1.5rem 0; }
   .section-header { margin-bottom: 1rem; h2 { font-size: 1.45rem; } }
+  .post-photo { margin: 1.5rem 0; }
+  .post-photo.portrait img { max-width: 85%; }
+  .post-gallery { grid-template-columns: 1fr; gap: 0.85rem; margin: 1.5rem 0; }
   body:has(.sticky-gear-cta) { padding-bottom: 64px; }
 }
