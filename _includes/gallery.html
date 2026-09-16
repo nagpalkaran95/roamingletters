@@ -8,20 +8,38 @@ Usage (pipe-separated so captions can contain commas):
      captions="KL Tower at dusk|Petronas from KLCC Park" %}
 
 Params:
-  photos   (required) Pipe-separated list of image paths (2+)
+  photos   (required) Pipe-separated list of image paths
   captions (optional) Pipe-separated captions in the same order
 
-All images render as 4:3 crops so mixed orientations still align cleanly.
+Fail-safes:
+  - Empty photos param: nothing renders.
+  - Single photo: the grid collapses to full-width (via CSS :has selector).
+  - Empty pipe slots (e.g. "a.jpg||c.jpg") are skipped.
+  - If any image 404s, that figure hides via onerror so the rest of the grid stays clean.
+
+All images render as 4:3 crops so mixed orientations still align.
 {%- endcomment -%}
+{% assign photos_raw = include.photos | default: '' %}
+{% if photos_raw != '' %}
+  {% assign photos = photos_raw | split: '|' %}
+  {% assign captions = include.captions | default: '' | split: '|' %}
+  {% assign valid_count = 0 %}
+  {% for src in photos %}{% assign t = src | strip %}{% if t != '' %}{% assign valid_count = valid_count | plus: 1 %}{% endif %}{% endfor %}
+  {% if valid_count > 0 %}
 <div class="post-gallery">
-{% assign photos = include.photos | split: '|' %}
-{% assign captions = include.captions | default: '' | split: '|' %}
-{% for src in photos %}
-  {% assign trimmed = src | strip %}
-  {% assign cap = captions[forloop.index0] | default: '' | strip %}
+    {% for src in photos %}
+      {% assign trimmed = src | strip %}
+      {% if trimmed != '' %}
+        {% assign cap = captions[forloop.index0] | default: '' | strip %}
   <figure>
-    <img src="{{ trimmed | prepend: site.baseurl | replace: '//', '/' }}" alt="{{ cap | escape }}" loading="lazy">
+    <img src="{{ trimmed | prepend: site.baseurl | replace: '//', '/' }}"
+         alt="{{ cap | escape }}"
+         loading="lazy"
+         onerror="this.closest('figure').style.display='none'">
     {% if cap != '' %}<figcaption>{{ cap }}</figcaption>{% endif %}
   </figure>
-{% endfor %}
+      {% endif %}
+    {% endfor %}
 </div>
+  {% endif %}
+{% endif %}

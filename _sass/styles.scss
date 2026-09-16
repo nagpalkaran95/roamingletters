@@ -252,17 +252,20 @@ footer { background: $color-navy !important; color: rgba(255,255,255,0.75); padd
     padding: 0 0.5rem;
   }
   &.portrait {
-    img { max-width: 65%; margin: 0 auto; max-height: 75vh; object-fit: contain; background: $color-sand; }
+    img { max-width: 65%; margin: 0 auto; max-height: 75vh; object-fit: contain; }
   }
 }
 
 // POST GALLERY: 2-up grid for a pair of images side by side. All slots
 // crop to 4:3 so a landscape + portrait pair still aligns cleanly.
+// Single-item gallery gracefully spans the whole column instead of leaving
+// an awkward empty grid slot next to it.
 .post-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   margin: 2rem 0;
+  &:has(> figure:only-child) { grid-template-columns: 1fr; }
   figure {
     margin: 0;
     img {
@@ -283,6 +286,7 @@ footer { background: $color-navy !important; color: rgba(255,255,255,0.75); padd
     }
   }
 }
+.post-gallery:has(> figure:only-child) figure img { aspect-ratio: 16 / 9; }
 
 // FOOTER DISCLAIMER (Amazon Associates compliance - keep visible)
 .footer-disclaimer {

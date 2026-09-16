@@ -10,8 +10,18 @@ Params:
   alt         (required) Description for accessibility + SEO
   caption     (optional) Italic caption shown below the image
   orientation (optional) "portrait" caps width so tall photos don't dominate; default is full-width landscape
+
+Fail-safes:
+  - If src is empty or missing, nothing renders.
+  - If the image file 404s at runtime, the whole figure hides via onerror
+    so readers never see a broken-image icon.
 {%- endcomment -%}
+{% if include.src and include.src != '' %}
 <figure class="post-photo{% if include.orientation == 'portrait' %} portrait{% endif %}">
-  <img src="{{ include.src | prepend: site.baseurl | replace: '//', '/' }}" alt="{{ include.alt | escape }}" loading="lazy">
+  <img src="{{ include.src | prepend: site.baseurl | replace: '//', '/' }}"
+       alt="{{ include.alt | default: include.caption | default: '' | escape }}"
+       loading="lazy"
+       onerror="this.closest('figure').style.display='none'">
   {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
 </figure>
+{% endif %}
