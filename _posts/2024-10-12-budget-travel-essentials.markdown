@@ -6,7 +6,7 @@ date: 2024-10-12 00:00:00 +0530
 categories: [gear]
 tags: [travel, budget, packing-list]
 background: '/img/international-diaries/travel-checklist/banner.jpg'
-excerpt: "6 travel essentials under ₹2000 each - compression bags, leak-proof bottles, sleep mask, carabiners, collapsible water bottle, and a compact first-aid kit. All Amazon India links inside."
+excerpt: "7 travel essentials under ₹2000 each - compression bags, leak-proof bottles, sleep mask, carabiners, collapsible water bottle, universal travel adapter, and a compact first-aid kit. All Amazon India links inside."
 redirect_from:
   - /gear/travel/2024/10/11/budget-travel-essentials.html
   - /gear/travel/2024/10/12/budget-travel-essentials.html
@@ -42,7 +42,7 @@ Roll-up [compression bags](https://www.amazon.in/dp/B0DSFSDTMB/?tag={{ site.amaz
 
 <div class="amazon-product">
   <a class="product-img-link" href="https://www.amazon.in/dp/B0DSFSDTMB/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">
-    <img class="product-img" src="{{ '/img/gear/compression_bags.jpg' | prepend: site.baseurl | replace: '//', '/' }}" alt="Compression Packing Bags">
+    <img class="product-img" src="{{ '/img/gear/compress-bags.avif' | prepend: site.baseurl | replace: '//', '/' }}" alt="Compression Packing Bags">
   </a>
   <div class="product-info">
     <div class="product-name"><a href="https://www.amazon.in/dp/B0DSFSDTMB/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">Compression Roll-Up Packing Bags (5-pack)</a> <span class="pick-badge">OUR PICK</span></div>
@@ -59,7 +59,7 @@ Airport security limits liquids to 100ml. Buy a set of [leak-proof travel bottle
 
 <div class="amazon-product">
   <a class="product-img-link" href="https://www.amazon.in/dp/B0FRSP3R1J/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">
-    <img class="product-img" src="{{ '/img/gear/toiletry_bottles.jpg' | prepend: site.baseurl | replace: '//', '/' }}" alt="Leak-Proof Toiletry Bottles">
+    <img class="product-img" src="{{ '/img/gear/travel_bottles.avif' | prepend: site.baseurl | replace: '//', '/' }}" alt="Leak-Proof Toiletry Bottles">
   </a>
   <div class="product-info">
     <div class="product-name"><a href="https://www.amazon.in/dp/B0FRSP3R1J/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">Leak-Proof Travel Bottles (6-piece set)</a></div>
@@ -93,7 +93,7 @@ Underrated travel tool. Clip wet clothes to the outside of your bag to dry while
 
 <div class="amazon-product">
   <a class="product-img-link" href="https://www.amazon.in/dp/B07YXWZ3WZ/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">
-    <img class="product-img" src="{{ '/img/gear/carabiner_clips.jpg' | prepend: site.baseurl | replace: '//', '/' }}" alt="Aluminium Carabiner Clips">
+    <img class="product-img" src="{{ '/img/gear/travel-clips.avif' | prepend: site.baseurl | replace: '//', '/' }}" alt="Aluminium Carabiner Clips">
   </a>
   <div class="product-info">
     <div class="product-name"><a href="https://www.amazon.in/dp/B07YXWZ3WZ/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">Aluminium Carabiner Clips (Set of 4)</a></div>
@@ -110,7 +110,7 @@ Hydration is key, especially in the heat of Southeast Asia or Rajasthan. A [coll
 
 <div class="amazon-product">
   <a class="product-img-link" href="https://www.amazon.in/dp/B0GHZ4YBZJ/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">
-    <img class="product-img" src="{{ '/img/gear/collapsible_bottle.jpg' | prepend: site.baseurl | replace: '//', '/' }}" alt="Collapsible Silicone Water Bottle">
+    <img class="product-img" src="{{ '/img/gear/collapse-bottle.avif' | prepend: site.baseurl | replace: '//', '/' }}" alt="Collapsible Silicone Water Bottle">
   </a>
   <div class="product-info">
     <div class="product-name"><a href="https://www.amazon.in/dp/B0GHZ4YBZJ/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">Collapsible Silicone Water Bottle (750ml)</a></div>
@@ -121,13 +121,30 @@ Hydration is key, especially in the heat of Southeast Asia or Rajasthan. A [coll
   </div>
 </div>
 
-### 6. First Aid Compact Kit (₹400–₹900)
+### 6. Universal Travel Adapter (₹500–₹1200)
+
+Traveling abroad? Different countries use different plug types. A [universal adapter](https://www.amazon.in/dp/B0CN32SRQ3/?tag={{ site.amazon_affiliate_tag }}){: .amazon-inline target="_blank" rel="noopener sponsored"} works everywhere and costs less than the overpriced ones sold at airport kiosks.
+
+<div class="amazon-product">
+  <a class="product-img-link" href="https://www.amazon.in/dp/B0CN32SRQ3/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">
+    <img class="product-img" src="{{ '/img/gear/travel_adapter.jpg' | prepend: site.baseurl | replace: '//', '/' }}" alt="Universal Travel Adapter">
+  </a>
+  <div class="product-info">
+    <div class="product-name"><a href="https://www.amazon.in/dp/B0CN32SRQ3/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">Universal Travel Adapter with USB Ports</a></div>
+    <div class="product-desc">Works in 150+ countries. Built-in surge protection. The USB ports let you charge multiple devices without occupying extra sockets.</div>
+    <a class="btn-amazon" href="https://www.amazon.in/dp/B0CN32SRQ3/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">
+      <i class="fab fa-amazon"></i> View Price on Amazon
+    </a>
+  </div>
+</div>
+
+### 7. First Aid Compact Kit (₹400–₹900)
 
 Medical help can be unreliable or expensive abroad. A [compact first aid kit](https://www.amazon.in/dp/B0F4D8VRWP/?tag={{ site.amazon_affiliate_tag }}){: .amazon-inline target="_blank" rel="noopener sponsored"} with band-aids, antiseptic wipes, ORS packets, and basic medication covers most minor travel incidents.
 
 <div class="amazon-product">
   <a class="product-img-link" href="https://www.amazon.in/dp/B0F4D8VRWP/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">
-    <img class="product-img" src="{{ '/img/gear/first_aid_kit.jpg' | prepend: site.baseurl | replace: '//', '/' }}" alt="Compact Travel First Aid Kit">
+    <img class="product-img" src="{{ '/img/gear/compact-first-aid.avif' | prepend: site.baseurl | replace: '//', '/' }}" alt="Compact Travel First Aid Kit">
   </a>
   <div class="product-info">
     <div class="product-name"><a href="https://www.amazon.in/dp/B0F4D8VRWP/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">Compact Travel First Aid Kit</a></div>
@@ -140,7 +157,7 @@ Medical help can be unreliable or expensive abroad. A [compact first aid kit](ht
 
 ---
 
-Total cost of everything above: **₹1,950–₹4,200** depending on brands - but you'll use these on every trip for years. The per-trip cost quickly becomes negligible.
+Total cost of everything above: **₹2,450–₹5,400** depending on brands - but you'll use these on every trip for years. The per-trip cost quickly becomes negligible.
 
 > **Pro tip:** Buy these 2-3 weeks before your trip so you have time to test them and return anything that doesn't work for you.
 
