@@ -13,9 +13,9 @@ redirect_from:
 sidebar:
   - type: product
     tagline: "Our top pick"
-    name: "Compression Roll-Up Packing Bags"
+    name: "Compression Packing Bags"
     desc: "Doubles your bag's capacity. No pump needed - just roll to compress."
-    image: /img/gear/compression_bags.jpg
+    image: /img/gear/compress-bags.avif
     link: https://www.amazon.in/dp/B0DSFSDTMB/?tag=roamingletter-21
     cta: "View on Amazon"
   - type: note
@@ -45,7 +45,7 @@ Roll-up [compression bags](https://www.amazon.in/dp/B0DSFSDTMB/?tag={{ site.amaz
     <img class="product-img" src="{{ '/img/gear/compress-bags.avif' | prepend: site.baseurl | replace: '//', '/' }}" alt="Compression Packing Bags">
   </a>
   <div class="product-info">
-    <div class="product-name"><a href="https://www.amazon.in/dp/B0DSFSDTMB/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">Compression Roll-Up Packing Bags (5-pack)</a> <span class="pick-badge">OUR PICK</span></div>
+    <div class="product-name"><a href="https://www.amazon.in/dp/B0DSFSDTMB/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">Compression Packing Bags (5-pack)</a> <span class="pick-badge">OUR PICK</span></div>
     <div class="product-desc">No vacuum pump needed - just roll to compress. Works for clothes, towels, light jackets. A travel essential I've used since my first trip to Udaipur.</div>
     <a class="btn-amazon" href="https://www.amazon.in/dp/B0DSFSDTMB/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">
       <i class="fab fa-amazon"></i> View Price on Amazon
