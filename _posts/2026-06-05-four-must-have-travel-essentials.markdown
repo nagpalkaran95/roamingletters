@@ -13,10 +13,10 @@ redirect_from:
 sidebar:
   - type: product
     tagline: "Our top pick"
-    name: "Simptech Crossbody Sling"
+    name: "Crossbody Travel Sling Bag"
     desc: "Water-resistant, hidden pockets, always on you. Our daily-carry across every trip."
     image: /img/gear/crossbody_bag.jpg
-    link: https://www.amazon.in/dp/B0FQ4Z9QQK/?tag=roamingletter-21
+    link: https://link.amazon/B0iOftC10
     cta: "View on Amazon"
   - type: note
     title: "Follow @roamingletters"
@@ -32,7 +32,7 @@ These items solve the biggest travel headaches: keeping documents secure, gettin
 <div class="quick-picks">
   <div class="qp-label">⚡ In a hurry? Our top picks</div>
   <ol>
-    <li>🥇 <a class="amazon-inline" href="https://www.amazon.in/dp/B0FQ4Z9QQK/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">Simptech Crossbody Sling Bag</a> - passport & phone, always on you</li>
+    <li>🥇 <a class="amazon-inline" href="https://link.amazon/B0iOftC10" target="_blank" rel="noopener sponsored">Crossbody Travel Sling Bag</a> - passport & phone, always on you</li>
     <li>🥈 <a class="amazon-inline" href="https://amzn.to/4v24lVJ" target="_blank" rel="noopener sponsored">20,000 mAh Power Bank</a> - 4-5 full phone charges</li>
     <li>🥉 <a class="amazon-inline" href="https://amzn.to/4forlcF" target="_blank" rel="noopener sponsored">Selfie Stick Tripod</a> - everyone in the frame, every time</li>
   </ol>
@@ -91,16 +91,16 @@ Living out of a backpack or suitcase means constantly packing and unpacking. Toi
 
 ### 4. Anti-Theft Crossbody Sling Bag
 
-When exploring airports, train stations, or busy city streets, you need quick access to your essentials without constantly taking off your backpack. A water-resistant [crossbody sling bag](https://www.amazon.in/dp/B0FQ4Z9QQK/?tag={{ site.amazon_affiliate_tag }}){: .amazon-inline target="_blank" rel="noopener sponsored"} keeps your phone, passport, cash, cards, and keys securely against your chest and within easy reach.
+When exploring airports, train stations, or busy city streets, you need quick access to your essentials without constantly taking off your backpack. A water-resistant [crossbody sling bag](https://link.amazon/B0iOftC10){: .amazon-inline target="_blank" rel="noopener sponsored"} keeps your phone, passport, cash, cards, and keys securely against your chest and within easy reach.
 
 <div class="amazon-product">
-  <a class="product-img-link" href="https://www.amazon.in/dp/B0FQ4Z9QQK/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">
+  <a class="product-img-link" href="https://link.amazon/B0iOftC10" target="_blank" rel="noopener sponsored">
     <img class="product-img" src="{{ '/img/gear/crossbody_bag.jpg' | prepend: site.baseurl | replace: '//', '/' }}" alt="Crossbody Travel Bag">
   </a>
   <div class="product-info">
-    <div class="product-name"><a href="https://www.amazon.in/dp/B0FQ4Z9QQK/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">Simptech Crossbody Travel Sling Bag</a> <span class="pick-badge">OUR PICK</span></div>
+    <div class="product-name"><a href="https://link.amazon/B0iOftC10" target="_blank" rel="noopener sponsored">Crossbody Travel Sling Bag</a> <span class="pick-badge">OUR PICK</span></div>
     <div class="product-desc">Lightweight, water-resistant shoulder bag with multiple zippered pockets. Perfect for securely carrying your phone, passport, currency, and travel documents on the go.</div>
-    <a class="btn-amazon" href="https://www.amazon.in/dp/B0FQ4Z9QQK/?tag={{ site.amazon_affiliate_tag }}" target="_blank" rel="noopener sponsored">
+    <a class="btn-amazon" href="https://link.amazon/B0iOftC10" target="_blank" rel="noopener sponsored">
       <i class="fab fa-amazon"></i> View Price on Amazon
     </a>
   </div>
