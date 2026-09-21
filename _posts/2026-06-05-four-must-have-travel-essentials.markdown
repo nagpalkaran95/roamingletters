@@ -34,22 +34,22 @@ These items solve the biggest travel headaches: keeping documents secure, gettin
   <ol>
     <li>🥇 <a class="amazon-inline" href="https://link.amazon/B0iOftC10" target="_blank" rel="noopener sponsored">Crossbody Travel Sling Bag</a> - passport & phone, always on you</li>
     <li>🥈 <a class="amazon-inline" href="https://amzn.to/4v24lVJ" target="_blank" rel="noopener sponsored">20,000 mAh Power Bank</a> - 4-5 full phone charges</li>
-    <li>🥉 <a class="amazon-inline" href="https://amzn.to/4forlcF" target="_blank" rel="noopener sponsored">Selfie Stick Tripod</a> - everyone in the frame, every time</li>
+    <li>🥉 <a class="amazon-inline" href="https://link.amazon/B0atOAA6c" target="_blank" rel="noopener sponsored">Selfie Stick Tripod</a> - everyone in the frame, every time</li>
   </ol>
 </div>
 
 ### 1. Selfie Stick & Tripod Stand
 
-Whether you are traveling solo or in a group, getting photos where everyone is in the frame (with the background visible) can be challenging. Asking strangers often leads to blurry shots or bad angles. This extendable [selfie stick with tripod stand](https://amzn.to/4forlcF){: .amazon-inline target="_blank" rel="noopener sponsored"} and Bluetooth remote is the perfect photography assistant.
+Whether you are traveling solo or in a group, getting photos where everyone is in the frame (with the background visible) can be challenging. Asking strangers often leads to blurry shots or bad angles. This extendable [selfie stick with tripod stand](https://link.amazon/B0atOAA6c){: .amazon-inline target="_blank" rel="noopener sponsored"} and Bluetooth remote is the perfect photography assistant.
 
 <div class="amazon-product">
-  <a class="product-img-link" href="https://amzn.to/4forlcF" target="_blank" rel="noopener sponsored">
+  <a class="product-img-link" href="https://link.amazon/B0atOAA6c" target="_blank" rel="noopener sponsored">
     <img class="product-img" src="{{ '/img/gear/selfie_tripod.jpg' | prepend: site.baseurl | replace: '//', '/' }}" alt="Selfie Stick & Tripod Stand">
   </a>
   <div class="product-info">
-    <div class="product-name"><a href="https://amzn.to/4forlcF" target="_blank" rel="noopener sponsored">Extendable Selfie Stick Tripod</a></div>
+    <div class="product-name"><a href="https://link.amazon/B0atOAA6c" target="_blank" rel="noopener sponsored">Extendable Selfie Stick Tripod</a></div>
     <div class="product-desc">Lightweight aluminum body, 360-degree rotation, extendable up to 40 inches. Features stable tripod legs and a rechargeable wireless remote control.</div>
-    <a class="btn-amazon" href="https://amzn.to/4forlcF" target="_blank" rel="noopener sponsored">
+    <a class="btn-amazon" href="https://link.amazon/B0atOAA6c" target="_blank" rel="noopener sponsored">
       <i class="fab fa-amazon"></i> View Price on Amazon
     </a>
   </div>
