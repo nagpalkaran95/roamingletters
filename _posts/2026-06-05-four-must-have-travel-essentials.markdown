@@ -34,21 +34,34 @@ These items solve the biggest travel headaches: keeping documents secure, gettin
   <ol>
     <li>🥇 <a class="amazon-inline" href="https://link.amazon/B0iOftC10" target="_blank" rel="noopener sponsored">Crossbody Travel Sling Bag</a> - passport & phone, always on you</li>
     <li>🥈 <a class="amazon-inline" href="https://amzn.to/4v24lVJ" target="_blank" rel="noopener sponsored">20,000 mAh Power Bank</a> - 4-5 full phone charges</li>
-    <li>🥉 <a class="amazon-inline" href="https://link.amazon/B0atOAA6c" target="_blank" rel="noopener sponsored">Selfie Stick Tripod</a> - everyone in the frame, every time</li>
+    <li>🥉 <a class="amazon-inline" href="https://amzn.to/4forlcF" target="_blank" rel="noopener sponsored">Selfie Stick + Tripod with Light</a> - everyone in the frame, every time</li>
   </ol>
 </div>
 
 ### 1. Selfie Stick & Tripod Stand
 
-Whether you are traveling solo or in a group, getting photos where everyone is in the frame (with the background visible) can be challenging. Asking strangers often leads to blurry shots or bad angles. This extendable [selfie stick with tripod stand](https://link.amazon/B0atOAA6c){: .amazon-inline target="_blank" rel="noopener sponsored"} and Bluetooth remote is the perfect photography assistant.
+Whether you are traveling solo or in a group, getting photos where everyone is in the frame (with the background visible) can be challenging. Asking strangers often leads to blurry shots or bad angles. Depending on your budget and needs, there are two solid options: an all-in-one [selfie stick with tripod and LED light](https://amzn.to/4forlcF){: .amazon-inline target="_blank" rel="noopener sponsored"} for hands-free group shots and low-light photos, or a simpler [extendable selfie stick](https://link.amazon/B0atOAA6c){: .amazon-inline target="_blank" rel="noopener sponsored"} with a Bluetooth remote if you want the lightest, most compact option.
+
+<div class="amazon-product">
+  <a class="product-img-link" href="https://amzn.to/4forlcF" target="_blank" rel="noopener sponsored">
+    <img class="product-img" src="{{ '/img/gear/selfie_tripod.jpg' | prepend: site.baseurl | replace: '//', '/' }}" alt="Selfie Stick with Tripod and LED Light">
+  </a>
+  <div class="product-info">
+    <div class="product-name"><a href="https://amzn.to/4forlcF" target="_blank" rel="noopener sponsored">Selfie Stick + Tripod with LED Light</a> <span class="pick-badge">OUR PICK</span></div>
+    <div class="product-desc">The all-in-one version I personally use. Built-in tripod legs let you set it down for hands-free group shots and time-lapses, while an adjustable LED fill light helps in low-light or night photos. Extendable, 360-degree rotation, and a rechargeable Bluetooth remote.</div>
+    <a class="btn-amazon" href="https://amzn.to/4forlcF" target="_blank" rel="noopener sponsored">
+      <i class="fab fa-amazon"></i> View Price on Amazon
+    </a>
+  </div>
+</div>
 
 <div class="amazon-product">
   <a class="product-img-link" href="https://link.amazon/B0atOAA6c" target="_blank" rel="noopener sponsored">
-    <img class="product-img" src="{{ '/img/gear/selfie_tripod.jpg' | prepend: site.baseurl | replace: '//', '/' }}" alt="Selfie Stick & Tripod Stand">
+    <img class="product-img" src="{{ '/img/gear/selfie_tripod.jpg' | prepend: site.baseurl | replace: '//', '/' }}" alt="Extendable Selfie Stick">
   </a>
   <div class="product-info">
-    <div class="product-name"><a href="https://link.amazon/B0atOAA6c" target="_blank" rel="noopener sponsored">Extendable Selfie Stick Tripod</a></div>
-    <div class="product-desc">Lightweight aluminum body, 360-degree rotation, extendable up to 40 inches. Features stable tripod legs and a rechargeable wireless remote control.</div>
+    <div class="product-name"><a href="https://link.amazon/B0atOAA6c" target="_blank" rel="noopener sponsored">Extendable Selfie Stick</a> <span class="pick-badge badge-value">BUDGET PICK</span></div>
+    <div class="product-desc">A simpler, lighter option if you don't need the tripod legs or the LED light. Just an extendable selfie stick paired with a Bluetooth remote — the smallest, cheapest way to get everyone in the frame.</div>
     <a class="btn-amazon" href="https://link.amazon/B0atOAA6c" target="_blank" rel="noopener sponsored">
       <i class="fab fa-amazon"></i> View Price on Amazon
     </a>
